@@ -1,0 +1,435 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.main {
+    width: 95%;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.giftos {
+    font-weight: 700;
+}
+
+
+.navbar {
+    /* height: 100px; */
+    width: 100%;
+    background-color: rgb(255, 229, 234);
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.navbar .firstul {
+    /* border: 2px solid red; */
+    margin: auto;
+    /* font-size: 1.2rem; */
+
+}
+
+.navbar .firstul li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.navbar .firstul li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .firstul li a:visited {
+    color: black;
+}
+
+
+#home{background-color: whitesmoke;}
+
+#shop{background-color: whitesmoke;}
+#why{background-color: whitesmoke;}
+
+#testimonial{background-color: whitesmoke;}
+#contactus{background-color: whitesmoke;}
+
+/* ----------------------------------nav-second------------------------------- */
+
+
+.navbar .listicon {
+    position: relative;
+    font-size: 2rem;
+    left: 82vw;
+    display: none;
+}
+
+
+
+.navbar .secondul {
+    display: none;
+    /* border: 2px solid red; */
+    width: 90vw;
+    text-align: center;
+    list-style: none;
+
+
+}
+
+.navbar .secondul li {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar .secondul li:hover {
+    background-color: pink;
+}
+
+.navbar .secondul li a:visited {
+    color: black;
+}
+
+.navbar .secondul li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*.navbar .iconbox:hover .secondul{display: block;  }*/
+
+
+/* -----------------------------------------media-------------------- */
+
+@media  (max-width:968px) {
+    .navbar .firstul {
+        display: none;
+    }
+
+    .navbar .listicon {
+        display: block;
+    }
+
+    .navbar .iconbox:hover .secondul {
+        display: block;
+    }
+
+
+
+
+}
+
+/* ================================================box1==================================== */
+
+.box1 {
+    background-color: rgb(240, 157, 170);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.box1 .leftbox h1 {
+    margin-top: 20px;
+    font-size: 3.1rem;
+    color: white;
+    font-weight: 800;
+}
+
+.box1 .leftbox button:hover {
+    background: none;
+    color: red;
+    border: 1px solid red;
+}
+
+.box1 .leftbox .linebox {
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    text-align: center;
+
+    padding: 10px 30px;
+    border-radius: 10px 10px 0px 0px;
+   
+    
+}
+
+.box1 .leftbox .linebox img {
+    height: 3px;
+}
+
+.box1 .leftbox .linebox a:link {
+    color: black;
+}
+
+.box1 .leftbox .linebox a:visited {
+    color: black;
+}
+
+
+
+/* ================================================box2==================================== */
+
+.box2 h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box2 img {
+    width: 110px;
+
+}
+
+.box2 .gridbox {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 300px 300px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.box2 .gridbox .items {
+    background-color: lightgray;
+    text-align: center;
+    position: relative;
+    
+}
+
+.box2 .gridbox .items h4 {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 1rem;
+    border-radius: 100%;
+    padding: 15px 10px;
+
+}
+
+.box2 .gridbox .items h3 {
+    position: absolute;
+    font-size: 1rem;
+    padding-left: 10px;
+    bottom: 10px;
+}
+
+.box2 .gridbox .items h2 {
+    position: absolute;
+    font-size: 1rem;
+    right: 10px;
+    bottom: 10px;
+}
+
+.box2 .gridbox .items h2 a {
+    color: red;
+}
+
+
+.box2 button:hover {
+    background: none;
+    color: red;
+    border: 1px solid red;
+}
+
+/* ================================================box3=============================== */
+.box3in {
+    border-radius: 15px;
+}
+
+.box3 h2 {
+    font-weight: 750;
+}
+
+.box3 .btn1 {
+    background-color: blue;
+    color: white;
+}
+
+.box3 .btn1:hover {
+    background: none;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.box3 .btn2 {
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+}
+
+.box3 .btn2:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+/* ================================================box4=============================== */
+.box4 h2 {
+    font-weight: 750;
+}
+
+/* ================================================box5=============================== */
+.box5 .items {
+    background-color: rgb(220, 234, 247);
+    text-align: center;
+}
+
+.box5 .items i {
+    font-size: 2rem;
+    padding-top: 40px;
+}
+
+.box5 .items h3 {
+    padding-top: 20px;
+}
+
+.box5 .items p {
+    padding-bottom: 50px;
+}
+
+/* ================================================box6=============================== */
+.box6 .items {
+    color: white;
+}
+
+.box6in {
+    border-radius: 20px;
+    background-color: purple;
+}
+
+.box6 .items h1 {
+    font-weight: 750;
+    color: white;
+    padding-top: 15vw;
+}
+
+.box6 .btn1 {
+    background-color: white;
+    color: black;
+}
+
+.box6 .btn1:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.box6 .btn2 {
+    background-color: rgb(187, 12, 187);
+    color: white;
+    margin-left: 10px;
+}
+
+.box6 .btn2:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+/* ================================================box7=============================== */
+.box7 form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box7in {
+    box-shadow: 0px 0px 10px gray;
+    width: 90%;
+    margin: auto;
+}
+
+.box7 form input {
+    width: 100%;
+    height: 40px;
+}
+
+.box7 form textarea {
+    width: 100%;
+}
+
+.box7 form button:hover {
+    background: none;
+    color: red;
+    border: 1px solid red;
+}
+
+/* ================================================box8=============================== */
+.box8in .item2 {
+    box-shadow: 0px 0px 15px gray;
+    background-color: white;
+}
+
+.box8in i {
+    color: white;
+}
+
+/* ================================================box9=============================== */
+
+
+
+.box9 h2 i {
+    color: white;
+}
+
+.box9in {
+    width: 97%;
+    margin: auto;
+
+}
+
+.box9in input {
+    height: 50px;
+    width: 100%;
+}
+
+.box9in button {
+    background-color: palevioletred;
+    color: white;
+}
+
+.box9in button:hover {
+    background-color: pink;
+}
+
+.box9 hr {
+    height: 5px;
+    background-color: white;
+  margin: auto;
+    width: 70%;
+}
+
+
+/* ===============================================media-queary==================== */
+
+
+
+
+
+
+@media (max-width:480px) {
+
+
+    .main .box2 .gridbox {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(8, auto);
+    }
+}
+
+@media (min-width:481px)and (max-width:768px) {
+    .navbar .firstul {
+        display: none;
+    }
+
+    .navbar .listicon {
+        display: block;
+    }
+
+    .main .box2 .gridbox {
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(4, auto);
+    }
+}
+
+
